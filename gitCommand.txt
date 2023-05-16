@@ -1,0 +1,8 @@
+1. git init 
+Initialized empty Git repository in C:/Users/spectra/Desktop/GitHub/MyFirstProject/.git/
+2. git status
+on branch master
+3. cd>testfile.txt
+add a text file in the directory
+4. git add .
+add many files to commit in the staging area 
