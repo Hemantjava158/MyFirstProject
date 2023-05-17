@@ -16,4 +16,43 @@ https://github.com/Hemantjava158/MyFirstProject
 https://github.com/settings/connections/applications/0120e057bd645470c1ed
 
 Branching , Merging and Delete commands:
-1.  
+1. git branch branch_name
+to create a new branch
+2. git checkout branch_name
+to switch to newly created branch
+3. touch test2.txt
+add a new file
+4. git status
+5. git add .
+add file for staging
+6. git commit -m "added file"
+7. git status
+8. git push origin/url branch_name
+to push code to the git
+9. git checkout master
+10. git merge branch_name
+to merge into master branch
+11 git push
+
+12. git branch -d branch_name
+to delete local branch
+13. git push origin/url --delete branch_name
+to delete from the remote
+ 
+
+GIT Fetch and GIT Pull command
+1. git fetch
+It only downloads latest changes into the local repository.
+It gives a change to review.
+2. Git pull
+downloads latest changes into the local repository and it also 
+automatically merges change in your working directory, It does 
+not give a change to review the changes before merging as so
+'merge conflicts' can and do occur.
+
+git pull=git fetch+git merge
+
+
+Cherry picking in git
+* Cherry picking in git means to choose a commit from one branch and apply it into another.
+* git cherry-pick <commit-hash> 
