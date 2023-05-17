@@ -5,4 +5,15 @@ on branch master
 3. cd>testfile.txt
 add a text file in the directory
 4. git add .
-add many files to commit in the staging area 
+add many files to commit in the staging area
+5. git commit -m "my first commit "
+commit files to git
+6. git push -u "https://github.com/Hemantjava158/MyFirstProject.git" master
+push to the GitHub
+
+
+https://github.com/Hemantjava158/MyFirstProject 
+https://github.com/settings/connections/applications/0120e057bd645470c1ed
+
+Branching , Merging and Delete commands:
+1.  
